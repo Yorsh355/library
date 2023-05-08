@@ -2,7 +2,7 @@
 
     <div class="max-w-5xl mx-auto">
         <form class="flex flex-col md:flex-row items-center justify-"
-        wire:submit.prevent='readDataForm'
+        {{-- wire:submit.prevent='readDataForm' --}}
         >
 
             <div class="mb-5 md:mr-3">
@@ -15,7 +15,7 @@
                     type="text"
                     placeholder="Buscar"
                     class="rounded-md shadow-sm border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 w-full"
-                    wire:model="termino"
+                    {{-- wire:model="termino" --}}
                 />
             </div>
 
